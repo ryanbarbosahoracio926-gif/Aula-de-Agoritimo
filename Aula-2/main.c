@@ -10,13 +10,18 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    int idade;
+    int rgm = 12345;
     
-    printf("Digite Sua Idade");
+    float media = 8.758;
     
-    scanf("%d", &idade);
+    printf("Dados do aluno:\n");
     
-    printf("Sua Idade é %d anos ", idade);
+    printf("RGM: %d\n", rgm);
+    
+    printf("Média: %.2f\n", media);
+    
+    
+   
 
     return 0;
 }
