@@ -10,18 +10,18 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    int rgm = 12345;
+    int quantidade;
+    float preco, total;
     
-    float media = 8.758;
+    printf("Digite a quantidade de cafés: ");
+    scanf("d%", &quantidade_cafe);
     
-    printf("Dados do aluno:\n");
+    printf("Digite o preço do café: ");
+    scanf("f%",&preco);
     
-    printf("RGM: %d\n", rgm);
+    total = preco*quantidade;
     
-    printf("Média: %.2f\n", media);
+    printf("Valor total da conta será: R$ %.2f\n, total");
     
-    
-   
-
     return 0;
 }
