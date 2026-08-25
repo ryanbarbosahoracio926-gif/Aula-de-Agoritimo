@@ -7,21 +7,17 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 #include <stdio.h>
+ int main() {
+     int idade;
+     printf("21: ");
+     scanf("%d", &idade);
+     
+     printf("Sua idade é %d anos./n");
+     
+     return 0;
+ }   
 
-int main()
-{
-    int quantidade;
-    float preco, total;
+
     
-    printf("Digite a quantidade de cafés: ");
-    scanf("d%", &quantidade_cafe);
     
-    printf("Digite o preço do café: ");
-    scanf("f%",&preco);
-    
-    total = preco*quantidade;
-    
-    printf("Valor total da conta será: R$ %.2f\n, total");
-    
-    return 0;
-}
+
